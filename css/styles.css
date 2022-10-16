@@ -1,0 +1,198 @@
+/*********RESET**********/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*********MAIN**********/
+body {
+  background: linear-gradient(130.02deg, #628e75 0.66%, #1a4855 83.32%);
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+/*********NAVBAR**********/
+
+nav#navbar {
+  width: calc(100% - 165px);
+  margin: 4rem auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav#navbar img {
+  width: 10rem;
+}
+
+nav#navbar .social-media img {
+  width: 2rem;
+}
+nav#navbar .social-media a:not(:last-child) {
+  margin-right: 3rem;
+}
+
+/*********BANNER**********/
+div.banner {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 165px);
+  margin: 0 auto;
+  margin-top: 2.5rem;
+}
+div.banner img.ghosts {
+  animation: up-and-down 1.5s ease-in-out infinite alternate;
+  min-width: 210px;
+}
+
+div.banner img.ghosts:hover {
+  animation: blink 0.1s ease-in-out 5 alternate;
+}
+
+div.banner img.ghosts,
+div.banner .text {
+  width: 50%;
+}
+
+div.banner .text {
+  color: white;
+}
+
+div.banner .text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+div.banner .text h1 {
+  font-size: 6.8rem;
+  font-weight: 900;
+  line-height: 7.4rem;
+  margin-top: 1.4rem;
+}
+
+div.banner .text p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  margin-top: 2.5rem;
+}
+
+div.watch-buttons {
+  margin-top: 5.4rem;
+  display: flex;
+}
+
+div.watch-buttons a {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: white;
+  width: 22.5rem;
+  height: 4.5rem;
+}
+
+div.watch-buttons a.watch-now {
+  background: rgba(101, 142, 118, 1);
+  border: none;
+  padding: 0.8rem 3rem;
+  transform: skew(-20deg);
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+div.watch-buttons a.watch-trailer {
+  background: transparent;
+  border: 1px solid white;
+  padding: 0.8rem 3rem;
+  transform: skew(-20deg);
+  text-align: center;
+}
+
+div.watch-buttons a.watch-now img {
+  width: 1.2rem;
+  height: 1.5rem;
+}
+div.watch-buttons a.watch-now span {
+  display: inline-block;
+}
+
+/*********ANIMATIONS**********/
+@keyframes up-and-down {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/*********MEDIA QUERIES**********/
+@media (max-width: 1050px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 875px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media (max-width: 803px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 732px) {
+  html {
+    font-size: 35%;
+  }
+}
+@media (max-width: 662px) {
+  div.banner {
+    flex-direction: column-reverse;
+  }
+  div.banner img.ghosts,
+  div.banner .text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 416px) {
+  div.watch-buttons a.watch-trailer {
+    display: none;
+  }
+}
+
+@media (max-width: 330px) {
+  html {
+    font-size: 30%;
+  }
+  nav#navbar {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
