@@ -29,7 +29,7 @@ Usuários devem ser capazer de ver:
 
 ### Screenshot
 
-![](./nft-card-preview.gif)
+![](./desafio5.gif)
 
 ### Links
 
