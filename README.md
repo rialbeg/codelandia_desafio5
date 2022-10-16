@@ -1,6 +1,8 @@
 # Codelandia Desafio 5
 
-Esta é uma solução do desafio 5 da codelandia
+Esta é uma solução do desafio 5 da codelandia.
+
+- [Entre no discord da comunidade](https://discord.gg/wNCWTVuxyz)
 
 ## Indice
 
@@ -23,17 +25,15 @@ Clone a pasta do projeto, abra o arquivo index.html em qualquer navegador
 
 Usuários devem ser capazer de ver:
 
-- O design responsivo 
+- O design responsivo
 
 ### Screenshot
 
 ![](./nft-card-preview.gif)
 
-
 ### Links
 
-- [Código no github](https://github.com/rialbeg/nft-preview-card-component-react)
-- [Site no ar](https://nft-preview-card-component-react-yw6n.vercel.app/)
+- [Site no ar](https://rialbeg.github.io/codelandia_desafio5/)
 
 ## Meu processo
 
@@ -46,9 +46,8 @@ Usuários devem ser capazer de ver:
 
 ### O que aprendi
 
-Este projeto é muito interessante para praticar os fundamentos do css como posicionamento com flex  e varias estilizações. Foi interessante ver tambem como uma animação muda toda a percepção de um layout.
+Este projeto é muito interessante para praticar os fundamentos do css como posicionamento com flex e varias estilizações. Foi interessante ver tambem como uma animação muda toda a percepção de um layout.
 
 ## Autor
 
 - [Portfolio](rialbeg.github.io/portfolio)
-- Frontend Mentor - [@rialbeg](https://www.frontendmentor.io/profile/rialbeg)
